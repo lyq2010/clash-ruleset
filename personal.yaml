@@ -2,4 +2,7 @@ payload:
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,fs1.app
   - DOMAIN-SUFFIX,netflav.com
+  ## mail.com 
   - DOMAIN-SUFFIX,mail.com
+  - DOMAIN-SUFFIX,ui-portal.de
+  - DOMAIN-SUFFIX,uicdn.com
