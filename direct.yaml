@@ -1,9 +1,9 @@
 payload:
-  - DOMAIN-KEYWORD,tracker
-  - DOMAIN-SUFFIX,ugreengo.com
-  - DOMAIN-SUFFIX,ugreen.com
-  - DOMAIN,t.audiences.me
-  - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,chdbits.xyz
-  - DOMAIN-SUFFIX,xmancdn.com
-  - DOMAIN-SUFFIX,siamparagon.org
+  - keyword: tracker
+  - +.ugreengo.com
+  - +.ugreen.com
+  - t.audiences.me
+  - +.ourbits.club
+  - +.chdbits.xyz
+  - +.xmancdn.com
+  - +.siamparagon.org
