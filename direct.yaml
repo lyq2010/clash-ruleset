@@ -4,4 +4,4 @@ payload:
     - t.audiences.me
     - +.ourbits.club
     - +.chdbits.xyz
-    - keyword: tracker
+    - 'keyword: tracker'
