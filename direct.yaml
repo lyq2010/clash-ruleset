@@ -1,7 +1,9 @@
 payload:
-    - +.ugreengo.com
-    - +.ugreen.com
-    - t.audiences.me
-    - +.ourbits.club
-    - +.chdbits.xyz
-    - 'keyword: tracker'
+  - keyword: tracker
+  - +.ugreengo.com
+  - +.ugreen.com
+  - t.audiences.me
+  - +.ourbits.club
+  - +.chdbits.xyz
+  - +.xmancdn.com
+  - +.siamparagon.org
