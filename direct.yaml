@@ -4,6 +4,6 @@ payload:
   - t.audiences.me
   - +.ourbits.club
   - +.chdbits.xyz
-  - +.xmancdn.com
+  - api.xmancdn.com
   - +.siamparagon.org
   - noresponse.audiences.me:443
