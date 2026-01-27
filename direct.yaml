@@ -1,12 +1,16 @@
 payload:
+  # 绿联云
   - +.ugreengo.com
   - +.ugreen.com
+  # PT站Tracker
   - t.audiences.me
   - +.ourbits.club
   - +.chdbits.xyz
+  - noresponse.audiences.me:443
+  # 机场更新
   - api.xmancdn.com
   - +.siamparagon.org
-  - noresponse.audiences.me:443
+  # 三星
   - +.anrdoezrs.net
   - +.galaxyappstore.com
   - +.galaxymobile.jp
