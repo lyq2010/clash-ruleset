@@ -25,8 +25,13 @@ payload:
   - +.samsungknox.com
   - +.samsungqbe.com
   - +.samsungrs.com
-  #Nvidia
+  # Nvidia
   - +.geforce.cn
   - +.gputechconf.cn
   - +.nvidia.cn
   - cn.download.nvidia.com
+  # 雷蛇
+  - +.razer.com
+  - +.razerzone.com
+  # HK-BEUP
+  - st.stga.cn
