@@ -12,6 +12,7 @@ payload:
   # 机场更新
   - api.xmancdn.com
   - +.siamparagon.org
+  - +.api-huacloud.dev
   # 三星
   - +.anrdoezrs.net
   - +.galaxyappstore.com
