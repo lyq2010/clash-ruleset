@@ -11,8 +11,9 @@ payload:
   - +.transmissionbt.com
   # 机场更新
   - api.xmancdn.com
-  - +.siamparagon.org
-  - +.api-huacloud.dev
+  - +.siamparagon.org #TAG订阅更新
+  - +.api-huacloud.dev #花云订阅更新
+  - nexconvert.com #TAG订阅转换
   # 三星
   - +.anrdoezrs.net
   - +.galaxyappstore.com
@@ -36,5 +37,5 @@ payload:
   # 雷蛇
   - +.razer.com
   - +.razerzone.com
-  # HK-BEUP
-  - st.stga.cn
+  # 机场官网
+  - st.stga.cn #HK-BEUP
