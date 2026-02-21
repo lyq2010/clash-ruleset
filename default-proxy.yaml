@@ -1,9 +1,12 @@
 payload:
+  # PT站
   - audiences.me
   - www.pttime.org
   - hhanclub.top
   - hhanclub.net
   - ptchdbits.co
+  - www.ptskit.org
+  # 常用网站
   - +.namesilo.com
   - +.heygen.com
   - +.kuromis.com
