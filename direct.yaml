@@ -41,3 +41,6 @@ payload:
   # 雷蛇
   - +.razer.com
   - +.razerzone.com
+  # Mailbird
+  - +.getmailbird.com
+  - mailbird.onfastspring.com
