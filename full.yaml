@@ -1,3 +1,6 @@
+proxies:
+  - {name: 直连, type: direct}
+  - {name: 拒绝, type: reject} 
 # 全局配置 
 port: 7890
 socks-port: 7891
