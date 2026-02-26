@@ -69,24 +69,28 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
+
+proxies:
+  - {name: 直连, type: direct}
+  - {name: 拒绝, type: reject} 
  
 proxy-groups:
 
-  - {name: 🚀 默认代理, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: YouTube, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"}
-  - {name: Google, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"}
-  - {name: ChatGPT, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"}
-  - {name: GitHub, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png"}
-  - {name: Microsoft, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png"}
-  - {name: TikTok, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"}
-  - {name: Telegram, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"}
-  - {name: Netflix, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png"}
-  - {name: PayPal, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png"}
-  - {name: Apple, type: select, proxies: [DIRECT, 🚀 默认代理, ♻️ 美国自动], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"}
-  - {name: Steam, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
-  - {name: SteamCN, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
-  - {name: 💣 自用, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
+  - {name: 🚀 默认代理, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+  - {name: YouTube, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"}
+  - {name: Google, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"}
+  - {name: ChatGPT, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"}
+  - {name: GitHub, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png"}
+  - {name: Microsoft, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png"}
+  - {name: TikTok, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"}
+  - {name: Telegram, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"}
+  - {name: Netflix, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png"}
+  - {name: PayPal, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png"}
+  - {name: Apple, type: select, proxies: [直连, 🚀 默认代理, ♻️ 美国自动], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"}
+  - {name: Steam, type: select, proxies: [直连, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
+  - {name: SteamCN, type: select, proxies: [直连, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
+  - {name: 💣 自用, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
   - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)新加坡|坡|SG|Singapore"}
@@ -97,17 +101,17 @@ proxy-groups:
   - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|SG|Singapore))^((?!(港|台|韩|日|美)).)*$"}
   - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美国|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|TW|(?i)Taiwan|台湾))^((?!(港|美|日|韩|新)).)*$"}
-  - {name: 🌐 全部节点, type: select, include-all: true, filter: "^((?!(DIRECT)).)*$",exclude-filter: "(?i)expire|reset|流量|剩余|traffic|sub|date|gb|重置|total|used|剩余流量|GB|拒绝|套餐"}
+  - {name: 🌐 全部节点, type: select, include-all: true, filter: "^((?!(直连)).)*$",exclude-filter: "(?i)expire|reset|流量|剩余|traffic|sub|date|gb|重置|total|used|剩余流量|GB|拒绝|套餐"}
   
 # 规则匹配
 rules:
-  - IP-CIDR,43.167.173.84/32,DIRECT
+  - IP-CIDR,43.167.173.84/32,直连
   - DOMAIN-SUFFIX,mail.com,♻️ 美国自动
   - DOMAIN-SUFFIX,Binance_domain,♻️ 台湾自动
-  - DOMAIN-KEYWORD,tracker,DIRECT
-  - RULE-SET,personal_domain,DIRECT
+  - DOMAIN-KEYWORD,tracker,直连
+  - RULE-SET,personal_domain,直连
   - RULE-SET,personal_domain2,💣 自用
-  - RULE-SET,private_domain,DIRECT
+  - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,Apple
   - RULE-SET,ai,ChatGPT
   - RULE-SET,github_domain,GitHub
@@ -119,12 +123,12 @@ rules:
   - RULE-SET,netflix_domain,Netflix
   - RULE-SET,paypal_domain,PayPal
   - RULE-SET,gfw_domain,🚀 默认代理
-  - RULE-SET,cn_domain,DIRECT
+  - RULE-SET,cn_domain,直连
   - RULE-SET,google_ip,Google,no-resolve
   - RULE-SET,netflix_ip,Netflix,no-resolve
   - RULE-SET,telegram_ip,Telegram,no-resolve 
-  - RULE-SET,cn_ip,DIRECT
-  - RULE-SET,adblock_domain,REJECT
+  - RULE-SET,cn_ip,直连
+  - RULE-SET,adblock_domain,拒绝
   - RULE-SET,steam_domain,Steam
   - RULE-SET,steamCN_domain,SteamCN
   - MATCH,🐟 漏网之鱼
