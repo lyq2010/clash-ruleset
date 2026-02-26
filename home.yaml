@@ -89,16 +89,16 @@ proxy-groups:
   - {name: 💣 自用, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: EMBY, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(emby|Emby|(?i)emby))^((?!(港|美|日|韩|新)).)*$", icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/emby.png"}
   - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
-  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
-  - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)新加坡|坡|SG|Singapore"}
-  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
-  - {name: 🇨🇳 台湾节点, type: select, include-all: true, filter: "(?i)台|tw|Taiwan|台湾"}
-  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(香港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日本|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
-  - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|SG|Singapore))^((?!(港|台|韩|日|美)).)*$"}
-  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美国|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-  - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|TW|(?i)Taiwan|台湾))^((?!(港|美|日|韩|新)).)*$"}
+  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "香港|🇭🇰|(?i)Hongkong|(?i)hong kong"}
+  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "日本|🇯🇵|(?i)Japan"}
+  - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "新加坡|🇸🇬|(?i)Singapore"}
+  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "美国|🇺🇸|(?i)unitedstates|(?i)united states|(?i)America"}
+  - {name: 🇨🇳 台湾节点, type: select, include-all: true, filter: "台湾|🇹🇼|(?i)Taiwan"}
+  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(香港|🇭🇰|(?i)Hongkong|(?i)hong kong))"}
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日本|🇯🇵|(?i)Japan))" }
+  - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|🇸🇬|(?i)Singapore))"}
+  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美国|🇺🇸|(?i)unitedstates|(?i)united states|(?i)America))"}
+  - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|🇹🇼|(?i)Taiwan))"}
   - {name: 🌐 全部节点, type: select, include-all: true, filter: "^((?!(DIRECT)).)*$",exclude-filter: "(?i)expire|reset|流量|剩余|traffic|sub|date|gb|重置|total|used|剩余流量|GB|拒绝|套餐"}
   
 # 规则匹配
