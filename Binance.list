@@ -12,8 +12,10 @@ DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
 DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,saasexch.info
-DOMAIN,ogcvzt.launches.appsflyersdk.com
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,elb.amazonaws.com
+DOMAIN-SUFFIX,sintral.me
 
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,twnodes.com
