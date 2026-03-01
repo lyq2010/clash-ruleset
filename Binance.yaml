@@ -18,6 +18,7 @@ payload:
   - +.walletconnect.org
   - +.elb.amazonaws.com
   - +.sintral.me
+  - +.bsappapi.com
   # Trust Wallet
   - +.trustwallet.com
   - +.twnodes.com
