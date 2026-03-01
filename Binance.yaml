@@ -16,6 +16,7 @@ payload:
   - +.saasexch.info
   - ogcvzt.launches.appsflyersdk.com
   - +.walletconnect.org
+  - aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com
   # Trust Wallet
   - +.trustwallet.com
   - +.twnodes.com
