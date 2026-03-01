@@ -14,9 +14,10 @@ payload:
   - +.saasexch.com
   - +.binance.info
   - +.saasexch.info
-  - ogcvzt.launches.appsflyersdk.com
+  - +.appsflyersdk.com
   - +.walletconnect.org
   - aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com
+  - +.sintral.me
   # Trust Wallet
   - +.trustwallet.com
   - +.twnodes.com
