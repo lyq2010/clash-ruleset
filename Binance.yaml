@@ -1,4 +1,5 @@
 payload:
+  # 币安
   - +.appsflayer.com
   - +.binance.cloud
   - +.binance.com
@@ -15,3 +16,7 @@ payload:
   - +.saasexch.info
   - ogcvzt.launches.appsflyersdk.com
   - +.walletconnect.org
+  # Trust Wallet
+  - +.trustwallet.com
+  - +.twnodes.com
+  - query.thegraph.kiln.fi
