@@ -92,7 +92,7 @@ proxy-groups:
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)(日本|🇯🇵|Japan)"}
   - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)(新加坡|🇸🇬|Singapore)"}
   - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)(美国|🇺🇸|unitedstates|united states|america)"}
-  - {name: 🇨🇳 台湾节点, type: select, include-all: true, filter: "台湾|🇹🇼|(?i)Taiwan"}
+  - {name: 🇨🇳 台湾节点, type: select, include-all: true, filter: "(?i)(台湾|🇹🇼|taiwan)"}
   - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)(香港|🇭🇰|hongkong|hong kong)"}
   - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)(日本|🇯🇵|Japan)" }
   - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)(新加坡|🇸🇬|Singapore)"}
