@@ -43,3 +43,5 @@ payload:
   # 雷蛇
   - +.razer.com
   - +.razerzone.com
+  # Parallels Desktop
+  - +.parallels.com
