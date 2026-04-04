@@ -70,7 +70,7 @@ dns:
  
 proxy-groups:
   - {name: 🚀 默认代理, type: select, proxies: [♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: YouTube, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"}
+  - {name: YouTube, type: select, proxies: [♻️ 香港自动, ♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"}
   - {name: Google, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"}
   - {name: ChatGPT, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"}
   - {name: GitHub, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png"}
