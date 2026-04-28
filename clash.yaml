@@ -79,7 +79,6 @@ dns:
       - 240.0.0.0/4
  
 proxy-groups:
-  - {name: 🚀 默认代理, type: select, proxies: [♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: YouTube, type: select, proxies: [♻️ 香港自动, ♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"}
   - {name: Google, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"}
   - {name: AI, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"}
@@ -94,7 +93,7 @@ proxy-groups:
   - {name: SteamCN, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
   - {name: 💣 自用, type: select, proxies: [♻️ 台湾自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: EMBY, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(emby|Emby|(?i)emby))", icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/emby.png"}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 台湾自动, ♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 香港自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)(香港|🇭🇰|hongkong|hong kong)"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)(日本|🇯🇵|Japan)"}
   - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)(新加坡|🇸🇬|Singapore)"}
@@ -126,7 +125,6 @@ rules:
   - RULE-SET,telegram_domain,Telegram
   - RULE-SET,netflix_domain,Netflix
   - RULE-SET,paypal_domain,PayPal
-  - RULE-SET,gfw_domain,🚀 默认代理
   - RULE-SET,cn_domain,DIRECT
   - RULE-SET,google_ip,Google,no-resolve
   - RULE-SET,netflix_ip,Netflix,no-resolve
@@ -159,7 +157,6 @@ rule-providers:
   microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
   apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
   tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
-  gfw_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
   cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
   adblock_domain: { <<: *yaml2, url: "https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-clash.yaml"} 
   steam_domain: { <<: *yaml1, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.yaml"}
