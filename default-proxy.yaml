@@ -1,7 +1,7 @@
 payload:
   # PT站
   - audiences.me
-  - www.pttime.org
+  #- www.pttime.org
   - hhanclub.top
   - hhanclub.net
   - ptchdbits.co
