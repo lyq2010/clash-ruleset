@@ -1,0 +1,44 @@
+  # 绿联云
+DOMAIN-SUFFIX,ugreengo.com
+DOMAIN-SUFFIX,.ugreen.com
+  # PT站Tracker
+DOMAIN,t.audiences.me
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,chdbits.xyz
+DOMAIN,noresponse.audiences.me:443
+DOMAIN-SUFFIX,hhan.club
+DOMAIN-SUFFIX,transmissionbt.com
+  # 机场更新
+DOMAIN,api.xmancdn.com
+DOMAIN-SUFFIX,siamparagon.org #TAG订阅更新
+DOMAIN-SUFFIX,api-huacloud.dev #花云订阅更新
+DOMAIN-SUFFIX,kineticbloom.org #奶昔订阅更新
+DOMAIN,tagxx.vip
+DOMAIN,tagss13.pro
+  # 机场官网
+  #- www.beupisp.com
+  # 三星
+DOMAIN-SUFFIX,anrdoezrs.net
+DOMAIN-SUFFIX,galaxyappstore.com
+DOMAIN-SUFFIX,galaxymobile.jp
+DOMAIN-SUFFIX,game-platform.net
+DOMAIN-SUFFIX,knoxemm.com
+DOMAIN-SUFFIX,samsung.com
+DOMAIN-SUFFIX,samsungapps.com
+DOMAIN-SUFFIX,samsungcloud.com
+DOMAIN-SUFFIX,samsungdm.com
+DOMAIN-SUFFIX,samsungeshop.com.cn
+DOMAIN-SUFFIX,samsunggalaxyfriends.com
+DOMAIN-SUFFIX,samsungknox.com
+DOMAIN-SUFFIX,samsungqbe.com
+DOMAIN-SUFFIX,samsungrs.com
+  # Nvidia
+DOMAIN-SUFFIX,geforce.cn
+DOMAIN-SUFFIX,gputechconf.cn
+DOMAIN-SUFFIX,nvidia.cn
+DOMAIN,cn.download.nvidia.com
+  # 雷蛇
+DOMAIN-SUFFIX,razer.com
+DOMAIN-SUFFIX,razerzone.com
+  # 卡巴斯基
+DOMAIN-SUFFIX,kaspersky.com
