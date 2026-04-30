@@ -93,7 +93,7 @@ proxy-groups:
   - {name: Steam, type: select, proxies: [🚀 默认代理, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
   - {name: SteamCN, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
   - {name: 💣 自用, type: select, proxies: [♻️ 台湾自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: EMBY, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(emby|Emby|(?i)emby))", icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/emby.png"}
+  #- {name: EMBY, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(emby|Emby|(?i)emby))", icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/emby.png"}
   - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 台湾自动, ♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 香港自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)(香港|🇭🇰|hongkong|hong kong)"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)(日本|🇯🇵|Japan)"}
@@ -111,7 +111,7 @@ rules:
   - IP-CIDR,43.167.173.84/32,DIRECT
   - DOMAIN-SUFFIX,mail.com,♻️ 美国自动
   - DOMAIN-SUFFIX,Binance_domain,♻️ 台湾自动
-  - DOMAIN-SUFFIX,beupisp.com,EMBY
+  #- DOMAIN-SUFFIX,beupisp.com,EMBY
   - DOMAIN-KEYWORD,tracker,DIRECT
   - RULE-SET,personal_domain,DIRECT
   - RULE-SET,personal_domain2,💣 自用
