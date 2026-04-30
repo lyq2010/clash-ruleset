@@ -89,6 +89,7 @@ proxy-groups:
   - {name: Telegram, type: select, proxies: [♻️ 香港自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"}
   - {name: Netflix, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png"}
   - {name: PayPal, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png"}
+  - {name: Mail, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/mini/mail.png"}
   - {name: Apple, type: select, proxies: [DIRECT, ♻️ 美国自动, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"}
   - {name: Steam, type: select, proxies: [🚀 默认代理, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
   - {name: SteamCN, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
@@ -126,6 +127,7 @@ rules:
   - RULE-SET,telegram_domain,Telegram
   - RULE-SET,netflix_domain,Netflix
   - RULE-SET,paypal_domain,PayPal
+  - RULE-SET,mail_domain,Mail
   - RULE-SET,cn_domain,DIRECT
   - RULE-SET,google_ip,Google,no-resolve
   - RULE-SET,netflix_ip,Netflix,no-resolve
@@ -144,10 +146,11 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
   fakeipfilter_domain: {<<: *domain, url: "https://raw.githubusercontent.com/wwqgtxx/clash-rules/release/fakeip-filter.mrs"}
-  personal_domain: { <<: *yaml2, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/direct.yaml"} 
-  personal_domain2: { <<: *yaml2, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/default-proxy.yaml"}
+  personal_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/direct.list"} 
+  personal_domain2: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/default-proxy.list"}
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
-  Binance_domain: { <<: *yaml2, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/Binance.yaml"}
+  Binance_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/Binance.list"}
+  mail_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/mail.list"}
   ai: { <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
