@@ -13,10 +13,9 @@ DOMAIN,api.xmancdn.com
 DOMAIN-SUFFIX,siamparagon.org #TAG订阅更新
 DOMAIN-SUFFIX,api-huacloud.dev #花云订阅更新
 DOMAIN-SUFFIX,kineticbloom.org #奶昔订阅更新
-DOMAIN,tagxx.vip
-DOMAIN,tagss13.pro
-  # 机场官网
-  #- www.beupisp.com
+DOMAIN-SUFFIX,5bx6h.net #Easy订阅更新
+DOMAIN,tagxx.vip #TAG导航
+DOMAIN,tagss13.pro #TAG
   # 三星
 DOMAIN-SUFFIX,anrdoezrs.net
 DOMAIN-SUFFIX,galaxyappstore.com
