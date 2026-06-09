@@ -109,14 +109,15 @@ proxy-groups:
   - {name: 🌐 全部节点, type: select, include-all: true, exclude-filter: "(?i)(expire|reset|流量|剩余|traffic|sub|date|gb|重置|total|used|剩余流量|拒绝|套餐|防丢|超时|导航)"}
   
 rules:
-  - IP-CIDR,43.167.173.84/32,DIRECT
   - DOMAIN-SUFFIX,mail.com,♻️ 美国自动
   - DOMAIN-SUFFIX,Binance_domain,♻️ 台湾自动
   #- DOMAIN-SUFFIX,beupisp.com,EMBY
   - DOMAIN-KEYWORD,tracker,DIRECT
   - RULE-SET,personal_domain,DIRECT
+  - RULE-SET,adblock_domain,REJECT
   - RULE-SET,personal_domain2,💣 自用
   - RULE-SET,private_domain,DIRECT
+  - RULE-SET,apple_cn_domain,Apple
   - RULE-SET,apple_domain,Apple
   - RULE-SET,ai,AI
   - RULE-SET,github_domain,GitHub
@@ -133,9 +134,8 @@ rules:
   - RULE-SET,netflix_ip,Netflix,no-resolve
   - RULE-SET,telegram_ip,Telegram,no-resolve 
   - RULE-SET,cn_ip,DIRECT
-  - RULE-SET,adblock_domain,REJECT
-  - RULE-SET,steam_domain,Steam
   - RULE-SET,steamCN_domain,SteamCN
+  - RULE-SET,steam_domain,Steam
   - MATCH,🐟 漏网之鱼
 
 rule-anchor:
@@ -159,10 +159,11 @@ rule-providers:
   netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
   paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
   microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
-  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
+  apple_cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
+  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"}
   tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
-  adblock_domain: { <<: *yaml2, url: "https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-clash.yaml"} 
+  adblock_domain: { <<: *domain, url: "https://anti-ad.net/mihomo.mrs"}
   steam_domain: { <<: *yaml1, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.yaml"}
   steamCN_domain: { <<: *yaml1, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.yaml"}
   cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
