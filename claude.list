@@ -1,13 +1,13 @@
-# >>> Claude & Anthropic 核心服务 (网页端与 Claude Code)
-+.anthropic.com
-+.claude.ai
-+.clau.de
-+.claude.com
+# >>> Claude & Anthropic 核心服务 (支持网页端与 Claude Code 命令行)
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,clau.de,PROXY
+DOMAIN-SUFFIX,claude.com,PROXY
 
-# >>> Model Context Protocol (MCP 协议)
-+.claudemcpclient.com
-+.claudemcpcontent.com
+# >>> Model Context Protocol (MCP 协议与开发者工具)
+DOMAIN-SUFFIX,claudemcpclient.com,PROXY
+DOMAIN-SUFFIX,claudemcpcontent.com,PROXY
 
-# >>> 静态资源与 CDN
-+.claudeusercontent.com
-servd-anthropic-website.b-cdn.net
+# >>> 静态资源与用户数据 CDN
+DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+DOMAIN,servd-anthropic-website.b-cdn.net,PROXY
