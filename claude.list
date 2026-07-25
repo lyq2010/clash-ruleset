@@ -1,0 +1,13 @@
+# >>> Claude & Anthropic 核心服务 (网页端与 Claude Code)
++.anthropic.com
++.claude.ai
++.clau.de
++.claude.com
+
+# >>> Model Context Protocol (MCP 协议)
++.claudemcpclient.com
++.claudemcpcontent.com
+
+# >>> 静态资源与 CDN
++.claudeusercontent.com
+servd-anthropic-website.b-cdn.net
