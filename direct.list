@@ -1,13 +1,6 @@
   # 绿联云
 DOMAIN-SUFFIX,ugreengo.com
 DOMAIN-SUFFIX,.ugreen.com
-  # PT站Tracker
-# DOMAIN,t.audiences.me
-# DOMAIN-SUFFIX,ourbits.club
-# DOMAIN-SUFFIX,chdbits.xyz
-# DOMAIN,noresponse.audiences.me:443
-# DOMAIN-SUFFIX,hhan.club
-# DOMAIN-SUFFIX,transmissionbt.com
   # 机场更新
 DOMAIN,api.xmancdn.com
 DOMAIN-SUFFIX,siamparagon.org
