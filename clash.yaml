@@ -90,6 +90,7 @@ proxy-groups:
   - {name: Netflix, type: select, proxies: [♻️ 新加坡自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png"}
   - {name: PayPal, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png"}
   - {name: Mail, type: select, proxies: [♻️ 美国自动, ♻️ 新加坡自动, ♻️ 台湾自动, ♻️ 香港自动, ♻️ 日本自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT], icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/mini/mail.png"}
+  - {name: X, type: select, proxies: [🇺🇸 美国自动, 🇸🇬 新加坡自动, 🇯🇵 日本自动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇨🇳 台湾节点, 🌐 全部节点, 直连], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png"}
   - {name: Apple, type: select, proxies: [DIRECT, ♻️ 美国自动, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"}
   - {name: Steam, type: select, proxies: [🚀 默认代理, DIRECT], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
   - {name: SteamCN, type: select, proxies: [DIRECT, 🚀 默认代理], icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png"}
@@ -120,6 +121,7 @@ rules:
   - RULE-SET,apple_cn_domain,Apple
   - RULE-SET,apple_domain,Apple
   - RULE-SET,ai,AI
+  - RULE-SET,x,X
   - RULE-SET,github_domain,GitHub
   - RULE-SET,microsoft_domain,Microsoft
   - RULE-SET,youtube_domain,YouTube
@@ -152,6 +154,7 @@ rule-providers:
   Binance_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/Binance.list"}
   mail_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/mail.list"}
   ai: { <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
+  x: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
   github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
