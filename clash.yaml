@@ -39,8 +39,8 @@ sniffer:
 
 tun:
   enable: true
-# system/gvisor/mixed
-  stack: mixed
+# system/gvisor/mixed/mips
+  stack: mips
   dns-hijack:
     - "any:53"
     - "tcp://any:53"
@@ -111,9 +111,8 @@ proxy-groups:
   
 rules:
   - DOMAIN-SUFFIX,mail.com,♻️ 美国自动
-  - DOMAIN-SUFFIX,Binance_domain,♻️ 台湾自动
-  #- DOMAIN-SUFFIX,beupisp.com,EMBY
   - DOMAIN-KEYWORD,tracker,DIRECT
+  - RULE-SET,binance_domain,♻️ 台湾自动
   - RULE-SET,personal_domain,DIRECT
   - RULE-SET,adblock_domain,REJECT
   - RULE-SET,personal_domain2,💣 自用
@@ -151,7 +150,7 @@ rule-providers:
   personal_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/direct.list"} 
   personal_domain2: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/default-proxy.list"}
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
-  Binance_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/Binance.list"}
+  binance_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/Binance.list"}
   mail_domain: { <<: *class, url: "https://raw.githubusercontent.com/lyq2010/clash-ruleset/refs/heads/main/mail.list"}
   ai: { <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
   x: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs" }
